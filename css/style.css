@@ -1,0 +1,14 @@
+.status {
+	height: 4vh;
+	width: 0%; /*szerokość nie musimy określać, bo jest 100% domyślna, ale na początek okreslamy szerokość na 0%*/
+	background-color: black;
+	transition: .6s linear; /*animacja, lepiej linear*/
+	position: fixed; /*przypiąć na stałe pasek scrolowania, czyli nieważne gdzie go przewiniemy pasek zawsze będzie widoczny*/
+	top: 0;
+	left: 0;
+}
+body {
+	height: 500vh;  /*musimy określić wysokość body większą niż normlanie, aby móc scrollować*/
+	background-image: linear-gradient(45deg, blue 0%, yellow 100%);
+
+}
